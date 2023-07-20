@@ -1,7 +1,7 @@
 'use strict';
 
-import { fetchData, url } from './api';
-import * as module from './module';
+import { fetchData, url } from './api.js';
+import * as module from './module.js';
 
 const addEvent = (elements, eventType, callback) => {
   for (const element of elements) element.addEventListener(eventType, callback);
