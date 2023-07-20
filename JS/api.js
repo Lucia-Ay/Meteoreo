@@ -1,6 +1,6 @@
 'use strict';
 
-const API_KEY = '';
+const API_KEY = 'INSERT_API_KEY_HERE';
 
 /* Fetch data from server */
 
