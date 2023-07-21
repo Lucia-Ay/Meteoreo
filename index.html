@@ -24,6 +24,7 @@
   </head>
 
   <body>
+    
     <!-- HEADER -->
     <header class="header">
       <div class="container">
@@ -86,7 +87,8 @@
     </header>
 
     <main>
-      <article class="container">
+      <article class="container" data-container>
+
         <!-- CURRENT WEATHER -->
         <div class="content-left">
           <section
@@ -95,8 +97,7 @@
             data-current-weather
           ></section>
 
-          <!-- FORECAST -->
-
+        <!-- FORECAST -->
           <section
             class="section forecast"
             aria-labelledby="forecast-label"
@@ -112,14 +113,14 @@
             data-highlights
           ></section>
 
-          <!-- HOURLY FORECAST -->
+        <!-- HOURLY FORECAST -->
           <section
             class="section hourly-forecast"
             aria-label="hourly forecast"
             data-hourly-forecast
           ></section>
 
-          <!-- FOOTER -->
+        <!-- FOOTER -->
           <footer class="footer">
             <p class="body-3">© 2023 Lucia Aydin. All Rights Reserved.</p>
             <p class="body-3">
@@ -156,7 +157,7 @@
     </section>
 
     <!-- JS -->
-    <script src="/JS/app.js" type="module"></script>
-    <script src="/JS/route.js" type="module"></script>
+    <script src="./JS/app.js" type="module"></script>
+    <script src="./JS/route.js" type="module"></script>
   </body>
 </html>
