@@ -1,6 +1,4 @@
-/*-----------------------------------*\
-          #CUSTOM PROPERTY
-\*-----------------------------------*/
+/**----- CUSTOM PROPERTY -----**/
 
 :root {
   /** --- COLORS --- **/
@@ -76,9 +74,7 @@
   --transition-short: 100ms ease;
 }
 
-/*-----------------------------------*\
-                #RESET
-\*-----------------------------------*/
+/**----- RESET -----**/
 
 *,
 *::before,
@@ -170,9 +166,8 @@ body {
   border-radius: var(--radius-pill);
 }
 
-/*-----------------------------------*\
-            #MATERIAL ICON
-\*-----------------------------------*/
+/**----- MATERIAL ICON -----**/
+
 
 @font-face {
   src: url(../assets/font/material-symbol-rounded.woff2) format('woff2');
@@ -200,9 +195,7 @@ body {
   overflow: hidden;
 }
 
-/*-----------------------------------*\
-            #REUSED STYLE
-\*-----------------------------------*/
+/**----- REUSED STYLES -----**/
 
 .container {
   max-width: 1600px;
@@ -355,9 +348,7 @@ body {
   }
 }
 
-/*-----------------------------------*\
-               #HEADER
-\*-----------------------------------*/
+/**----- HEADER -----**/
 
 .header .btn-primary .span {
   display: none;
@@ -501,13 +492,11 @@ body {
   box-shadow: none;
 }
 
-/*-----------------------------------*\
-                #MAIN
-\*-----------------------------------*/
+/**----- MAIN -----**/
 
 main {
-  height: calc(100vh -80%);
-  height: calc(100svh -80%); /** mobile **/
+  height: calc(100vh - 80%);
+  height: calc(100svh - 80%); /** mobile **/
   overflow: hidden;
 }
 
@@ -548,9 +537,7 @@ article.container::before {
   margin-block-end: 16px;
 }
 
-/*-----------------------------------*\
-          #CURRENT WEATHER 
-\*-----------------------------------*/
+/*----- CURRENT WEATHER -----**/
 
 .current-weather-card .wrapper {
   display: flex;
@@ -587,9 +574,7 @@ article.container::before {
   color: var(--on-surface-variant);
 }
 
-/*-----------------------------------*\
-             #HIGHLIGHTS
-\*-----------------------------------*/
+/**----- HIGHLIGHTS ------**/
 
 .forecast-card .title-2 {
   margin-block-end: 0;
@@ -615,9 +600,7 @@ article.container::before {
   text-align: right;
 }
 
-/*-----------------------------------*\
-          #HOURLY FORECAST
-\*-----------------------------------*/
+/**----- HOURLY FORECAST -----**/
 
 .highlights .m-icon {
   font-size: 3.2rem;
@@ -709,9 +692,7 @@ article.container::before {
   margin-block-end: 4px;
 }
 
-/*-----------------------------------*\
-              #FORECAST
-\*-----------------------------------*/
+/**----- FORECAST -----**/
 
 .slider-container {
   margin-inline: -16px;
@@ -751,9 +732,7 @@ article.container::before {
   margin-block: 12px;
 }
 
-/*-----------------------------------*\
-               #FOOTER
-\*-----------------------------------*/
+/**----- FOOTER -----**/
 
 .footer,
 .footer .body-3:last-child {
@@ -779,9 +758,7 @@ article.container::before {
   gap: 6px;
 }
 
-/*-----------------------------------*\
-              #LOADING
-\*-----------------------------------*/
+/**----- LOADING -----**/
 
 .loading {
   position: absolute;
@@ -805,9 +782,7 @@ article.container::before {
   animation: loading 500ms linear infinite;
 }
 
-/*-----------------------------------*\
-            #ERROR SECTION
-\*-----------------------------------*/
+/**----- ERROR SECTION -----**/
 
 .error-content {
   position: fixed;
@@ -828,9 +803,8 @@ article.container::before {
   margin-block-start: 20px;
 }
 
-/*-----------------------------------*\
-            #MEDIA QUERIES
-\*-----------------------------------*/
+/**----- MEDIA QUERIES -----**/
+
 
 /** --- LARGER THAN 768PX SCREENS --- **/
 
@@ -957,14 +931,13 @@ article.container::before {
   /** --- CUSTOM PROPERTY --- **/
 
   :root {
+            
     /** --- FONT SIZE --- **/
-
     --heading: 6.5rem;
     --title-2: 2rem;
   }
 
   /** --- REUSED STYLES --- **/
-
   .container {
     padding: 40px;
   }
