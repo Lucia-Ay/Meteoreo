@@ -19,8 +19,8 @@ const currentLocation = () => {
 const searchedLocation = (query) => updateWeather(...query.split('&'));
 
 const routes = new Map([
-  ['/current-location', currentLocation], // EDIT: removed the hash //
-  ['/weather', searchedLocation],         // EDIT: removed the hash//
+  ['#/current-location', currentLocation], 
+  ['#/weather', searchedLocation],
 ]);
 
 const checkHash = () => {
