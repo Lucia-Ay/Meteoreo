@@ -122,7 +122,7 @@ export const updateWeather = (lat, lon) => {
         <div class="wrapper">
         <p class="heading">${parseInt(temp)}&deg;<sup>c</sup></p>
         <img
-            src=`../assets/images/weather_icons/${icon}.png`
+            src="../assets/images/weather_icons/${icon}.png"
             width="64"
             height="64"
             alt=${description}
