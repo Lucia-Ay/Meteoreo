@@ -1,6 +1,6 @@
 'use strict';
 
-const API_KEY = 'API-KEY-HERE';
+const API_KEY = '89aad541f3a3c7d7f9925bdbab022307';
 
 /* Fetch data from server */
 
