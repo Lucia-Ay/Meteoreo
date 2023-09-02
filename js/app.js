@@ -122,7 +122,7 @@ export const updateWeather = (lat, lon) => {
         <div class="wrapper">
         <p class="heading">${parseInt(temp)}&deg;<sup>c</sup></p>
         <img
-            src="./assets/images/weather_icons/${icon}.png"
+            src="../assets/images/weather_icons/${icon}.png"
             width="64"
             height="64"
             alt=${description}
@@ -291,7 +291,7 @@ export const updateWeather = (lat, lon) => {
             <div class="card card-sm slider-card">
                 <p class="body-3">${module.getHours(dateTimeUnix, timezone)}</p>
                 <img
-                    src="./assets/images/weather_icons/${icon}.png"
+                    src="../assets/images/weather_icons/${icon}.png"
                     alt=${description}
                     title=${description}
                     class="weather-icon"
@@ -309,7 +309,7 @@ export const updateWeather = (lat, lon) => {
             <div class="card card-sm slider-card">
                 <p class="body-3">${module.getHours(dateTimeUnix, timezone)}</p>
                 <img
-                    src="./assets/images/weather_icons/direction.png"
+                    src="../assets/images/weather_icons/direction.png"
                     alt="direction"
                     class="weather-icon"
                     width="48"
@@ -348,7 +348,7 @@ export const updateWeather = (lat, lon) => {
         li.innerHTML = `
             <div class="icon-wrapper">
                 <img
-                src="./assets/images/weather_icons/${icon}.png"
+                src="../assets/images/weather_icons/${icon}.png"
                 width="36"
                 height="36"
                 alt="${description}"
