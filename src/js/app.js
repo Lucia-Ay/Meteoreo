@@ -125,7 +125,7 @@ export const updateWeather = (lat, lon) => {
             src="../assets/images/weather_icons/${icon}.png"
             width="64"
             height="64"
-            alt=${description}
+            alt="${description}"
             class="weather-icon"
         />
         </div>
@@ -292,8 +292,8 @@ export const updateWeather = (lat, lon) => {
                 <p class="body-3">${module.getHours(dateTimeUnix, timezone)}</p>
                 <img
                     src="../assets/images/weather_icons/${icon}.png"
-                    alt=${description}
-                    title=${description}
+                    alt="${description}"
+                    title="${description}"
                     class="weather-icon"
                     width="48"
                     height="48"
